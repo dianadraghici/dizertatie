@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rps-backend:war">
+    <output-path>$PROJECT_DIR$/rps-backend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rps-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rps-backend-dev.war">
+      <element id="artifact" artifact-name="rps-backend:war exploded" />
+    </root>
+  </artifact>
+</component>
